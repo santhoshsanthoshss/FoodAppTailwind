@@ -19,6 +19,36 @@ const HeadLineCard = () => {
           alt=""
         />
       </div>
+      <div className="rounded-xl relative">
+        {/* overlay */}
+        <div className="absolute rounded-xl w-full h-full bg-black/50 text-white">
+          <p className="font-bold text-2xl px-2 pt-4">New Restaurants</p>
+          <p className="px-2">Added Daily</p>
+          <button className="border-white bg-white mx-2 text-black absolute bottom-4">
+            Order Now
+          </button>
+        </div>
+        <img
+          className="max-h-[160px] md:max-h-[1200px] w-full object-cover rounded-xl "
+          src="https://images.pexels.com/photos/1115251/pexels-photo-1115251.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+        />
+      </div>
+      <div className="rounded-xl relative">
+        {/* overlay */}
+        <div className="absolute rounded-xl w-full h-full bg-black/50 text-white">
+          <p className="font-bold text-2xl px-2 pt-4">We Deliver Desserts To</p>
+          <p className="px-2">Tasty Treats</p>
+          <button className="border-white bg-white mx-2 text-black absolute bottom-4">
+            Order Now
+          </button>
+        </div>
+        <img
+          className="max-h-[160px] md:max-h-[1200px] w-full object-cover rounded-xl "
+          src="https://images.pexels.com/photos/8939564/pexels-photo-8939564.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
